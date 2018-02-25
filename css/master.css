@@ -1,17 +1,29 @@
-.jumbotron{
+.jumbotron {
   background-color: skyblue;
 }
-#open-menu,#hide-menu{
+
+#open-menu, #hide-menu {
   position: absolute;
   font-size: 300%;
 }
-aside{
+
+#hide-menu {
+  left: 70%;
+}
+
+aside {
   display: flex;
   position: absolute;
   height: 100vh;
-  width: 100vh;
-  z-index:-100;
+  width: 25vh;
+  z-index: 100;
   background-color: #288cf0;
-  right:47%;
-  left: 147%;
+  left:-30%;
+}
+#page-content{
+  display: block;
+  position: relative;
+  height: 100vh;
+  width:100vh;
+  left:0%;
 }
