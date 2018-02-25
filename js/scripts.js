@@ -28,14 +28,29 @@ $(document).ready(function() {
 $(document).ready(function() {
   $("#open-menu").click(function() {
     $("aside").animate({
-      "left": 0
-    }, 2000);
+      "left": "1.10\%"
+    }, 1000);
+  });
+});
+$(document).ready(function() {
+  $("#open-menu").click(function() {
+    $("#page-content").animate({
+      "left": "15\%"
+    }, 1000);
   });
 });
 $(document).ready(function() {
   $("#hide-menu").click(function() {
     $("aside").animate({
-      "left": "-147\%"
-    }, 2000);
+      "left": "-30\%"
+    }, 1000);
+  });
+});
+
+$(document).ready(function() {
+  $("#hide-menu").click(function() {
+    $("#page-content").animate({
+      "left": 0
+    }, 1000);
   });
 });
