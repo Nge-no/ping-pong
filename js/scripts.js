@@ -8,4 +8,6 @@ $(document).ready(function() {
 });
 
 var display = function() {
-  for (i = 1; i <= value; i++) 
+  for (i = 1; i <= value; i++) {
+    if (i % 15 === 0) {
+      $("#output").append("<li>" + "pingpong" + "</li>");
