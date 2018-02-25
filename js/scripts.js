@@ -20,3 +20,6 @@ var display = function() {
     }
   };
 };
+$("#clear-list").click(function(){
+    $("#output").empty();
+});
