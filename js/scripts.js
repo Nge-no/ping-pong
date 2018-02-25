@@ -11,3 +11,6 @@ var display = function() {
   for (i = 1; i <= value; i++) {
     if (i % 15 === 0) {
       $("#output").append("<li>" + "pingpong" + "</li>");
+    } else if (i % 5 === 0) {
+      $("#output").append("<li>" + "pong" + "</li>");
+    } 
