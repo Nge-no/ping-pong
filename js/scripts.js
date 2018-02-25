@@ -15,4 +15,8 @@ var display = function() {
       $("#output").append("<li>" + "pong" + "</li>");
     } else if (i % 3 === 0) {
       $("#output").append("<li>" + "ping" + "</li>");
+    }  else {
+      $("#output").append("<li>" + i + "</li>");
     }
+  };
+};
