@@ -6,3 +6,6 @@ $(document).ready(function() {
     $("#output").text(result);
   });
 });
+
+var display = function() {
+  for (i = 1; i <= value; i++) 
