@@ -8,13 +8,13 @@ var display = function() {
       $("#output").append("<li>" + "pong" + "</li>");
     } else if (i % 3 === 0) {
       $("#output").append("<li>" + "ping" + "</li>");
-    }  else {
+    } else {
       $("#output").append("<li>" + i + "</li>");
     }
   };
 };
-$("#clear-list").click(function(){
-    $("#output").empty();
+$("#clear-list").click(function() {
+  $("#output").empty();
 });
 
 $(document).ready(function() {
@@ -23,5 +23,19 @@ $(document).ready(function() {
     value = parseInt($("#value-x").val());
     var result = display(value);
     $("#output").text(result);
+  });
+});
+$(document).ready(function() {
+  $("#open-menu").click(function() {
+    $("aside").animate({
+      "left": 0
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $("#hide-menu").click(function() {
+    $("aside").animate({
+      "left": "-147\%"
+    }, 2000);
   });
 });
