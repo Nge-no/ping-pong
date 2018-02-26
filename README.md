@@ -4,6 +4,19 @@
 This is a simple application which allows the user to,first, enter a number and submit it. A list of all the numbers from one to the one entered will be displayed.In the list multiples of 3,5 and 15 will be replaced by "ping","pong" and "pingpong" respectively.The user can then clear the output section and enter another number. WHAT FUN!!
 No?
 OK...
+####Specs
+-App creates list from 1 to the user's input.
+  Input-5
+  Expected output-1,2,3,4,5
+-App checks for numbers divisible by 15 and replaces them with "pingpong"
+  Input-15
+  Expected output-1,2,3,4,5,6,7,8,9,10,11,12,13,14,"pingpong"
+-App checks for numbers divisible by 5 and replaces them with "pong"
+  Input-10
+  Expected output-1,2,3,4,"pong",6,7,8,9,"pong"
+-App checks for numbers divisible by 3 and replaces them with "ping"
+  Input-10
+  Expected output-1,2,"ping",4,"pong","ping",7,8,"ping","pong"
 
 #####Instructions
 1. Enter number.
