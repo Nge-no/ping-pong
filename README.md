@@ -28,6 +28,8 @@ Specs
 6. Click menu icon to open menu.
 7. Click close menu icon (the "x") to close menu.
 
+####Link to live site
+  <a href="https://nge-no.github.io/ping-pong/">Ping Pong</a>
 
 ##Technologies used
 Git
